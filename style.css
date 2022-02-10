@@ -1,0 +1,161 @@
+* {
+    font-family: monospace;
+}
+
+/*body{
+    background-image: url('spacebackground.jpg');
+}*/
+#selection{
+    width: 80%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    
+    display: flex; 
+    flex-direction: column; 
+    
+    align-items: center;   
+    min-width: 225px;  
+    min-height: 150px;
+
+    background-color:rgba(116, 241, 0, 0.7);
+    border-radius: 6px;
+}
+
+.list > * {
+    margin-bottom: 5px;
+}
+
+select {
+    width: 135px; 
+}
+
+table {
+    border: solid;
+    text-align: center; 
+}
+
+td {
+    border: solid 2px;
+}
+
+th {
+    margin: 50px;
+    border: solid;
+    
+}
+
+
+@media only screen and (max-width: 580px){
+    #selection{
+        flex-direction: column; 
+
+    }
+
+    .list{
+        margin-bottom: 10px; 
+       
+        align-items: center;
+    }
+
+}
+
+
+#trigger {
+    box-shadow: 5px 5px 5px black;
+    font-family: monospace;
+    display: block;
+    margin: 0 auto;
+}
+
+#trigger:active{
+    box-shadow: none ;
+    filter: 60%;
+}
+
+
+
+#time {
+    position: relative; 
+    left: 500px;
+    top: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+
+
+#total_time {
+    margin: 5px 0px 0px 5px;
+}
+
+#result {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+#inventory {
+    display: inline-block;
+    border: solid;
+    margin-left: 15px;
+    margin-top: 50px;
+
+    background-color: rgba(94, 255, 0, 0.7);
+    position: relative;
+    left: 470px;
+    
+}
+#reset {
+    box-shadow: 5px 5px 5px black;
+    font-family: monospace;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    left: 5px;
+    width: 100px;
+    height: 30px;
+}
+#reset:active{
+    box-shadow: none ;
+    filter: 60%;
+}
+#h1{
+    left: 100px;
+    text-align: center;
+    color: rgb(0, 4, 255);
+    
+}
+#h2{
+    left: 100px;
+    text-align: center;
+    color: rgb(0, 4, 255);
+}
+#reset1{
+    position: relative;
+    left: 500px;
+}
+#gd1:hover{
+        background-color: yellow;
+        color: rgb(255, 139, 7);
+}
+#link1:hover{
+    background-color: yellow;
+}
+#link:hover{
+    background-color: tomato;
+}
+#gm1{
+    color: rgb(255, 0, 0);
+    position: relative;
+    top: 300px;
+    left: 500px;
+    
+}
+#gm2{
+    color: rgb(255, 0, 0);
+}
